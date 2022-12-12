@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <OurNavbar />
       <OurHero />
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+      <footer className="footer footer-center p-4 bg-neutral text-base-content">
         <div>
           <p>Copyright © 2022 - All right reserved by Keeton, Steve, and Kerk</p>
         </div>

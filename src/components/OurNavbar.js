@@ -4,7 +4,7 @@ import { Navbar, Button } from 'react-daisyui'
 class OurNavbar extends React.Component {
     render() {
         return (
-            <div className="flex w-full component-preview p-2 items-center justify-center gap-2 font-sans">
+            <div className="flex w-full component-preview p-2 items-center justify-center gap-2 font-sans bg-neutral">
                 <Navbar >
                     <Button className="text-xl normal-case" color="ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
