@@ -6,7 +6,7 @@ class OurNavbar extends React.Component {
 
     render() {
         return (
-            <div className="flex w-full p-2 items-center justify-center gap-2 font-sans bg-neutral align-middle">
+            <div className="flex w-full p-2 items-center justify-center gap-2 font-sans bg-base-300 align-middle">
                 <Navbar className='flow-root'>
                     <Button className="text-xl normal-case float-left" color="ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
