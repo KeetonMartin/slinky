@@ -7,10 +7,10 @@ import { OurSubscriber } from './OurSubscriber';
 class OurHero extends React.Component {
     render() {
         return (
-            <Hero className='h-auto items-center'>
-                <Hero.Overlay className="bg-opacity-60" />
+            <Hero className='h-screen items-center'>
+                <Hero.Overlay className="bg-base-100" />
                 <Hero.Content className="text-center">
-                    <div className="max-w-2xl items-center ">
+                    <div className="max-w-4xl items-center ">
 
                         <div className="card w-48 bg-primary text-primary-content mx-auto my-8">
                             <div className="card-body items-center text-center">
@@ -29,7 +29,7 @@ class OurHero extends React.Component {
                         </p>
 
 
-                        <div className="card w-auto bg-primary text-primary-content mx-auto ">
+                        <div className="card bg-primary text-primary-content mx-auto ">
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">We're still building our app</h2>
                                 <p className="card-subtitle">But you can sign up to be notified when we launch.</p>
@@ -37,7 +37,7 @@ class OurHero extends React.Component {
                             </div>
                         </div>
 
-                        <div class="mockup-phone border-primary my-8">
+                        {/* <div class="mockup-phone border-primary my-8">
                             <div class="camera"></div>
                             <div class="display">
                                 <div class="artboard artboard-demo phone-1">
@@ -49,7 +49,7 @@ class OurHero extends React.Component {
                                     </svg>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
 
                     </div>

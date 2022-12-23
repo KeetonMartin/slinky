@@ -31,19 +31,19 @@ export const OurSubscriber = () => {
         <>
 
 
-            <form onSubmit={handleSubmit}>
-                <div className='container mx-auto my-2 justify-center mt-4 flex'>
+            <form className='w-full' onSubmit={handleSubmit}>
+                <div className='container w-full mx-auto my-2 justify-center mt-4 flex'>
                     {/* <label htmlFor="mchimpEmail">Email</label> */}
                     {/* <input type="email" name="email" id="mchimpEmail" onChange={handleInputChange} /> */}
-                    <div className='flex flex-row'>
-                        <Input className='mx-1 text-base-content' placeholder='email' type="email" name="email" id="mchimpEmail" onChange={handleInputChange} />
-                        <Button className='mx-1' type="submit" color="secondary">Join waitlist</Button>
+                    <div className='flex flex-row w-full'>
+                        <Input className='mx-1 text-base-content w-2/3' placeholder='email' type="email" name="email" id="mchimpEmail" onChange={handleInputChange} />
+                        <Button className='mx-1 w-1/3' type="submit" color="secondary">Join waitlist</Button>
                     </div>
                 </div>
                 {/* <button type="submit">Sign me up!</button> */}
             </form>
 
-            <div className="max-w-md items-center ">
+            <div className="max-w-xl items-center ">
 
                 {(error || status === "failed") && <div className="alert alert-error shadow-lg">
                     <div>
